@@ -79,33 +79,33 @@ def question8():
     answers = {}
 
     # float
-    answers["(a) P(X_1=1)"] = None
-    answers["(a) P(X_2=1)"] = None
-    answers["(a) P(X_1=1,X_2=1)"] = None
+    answers["(a) P(X_1=1)"] = 0.65
+    answers["(a) P(X_2=1)"] = 0.41
+    answers["(a) P(X_1=1,X_2=1)"] = 0.28
 
     # string: "dependent" or "independent"
     answers["(a) Relationship between X_1 and X_2"] = "dependent"
 
     # string: "yes" or "no"
-    answers["(b) X_1 and X_2 conditionally independent given the class?"] = None
+    answers["(b) X_1 and X_2 conditionally independent given the class?"] = "yes"
 
     # float
-    answers["(c) P(X_1=1 | +)"] = None
-    answers["(c) P(X_1=1 | -)"] = None
-    answers["(c) P(X_2=1 | +)"] = None
-    answers["(c) P(X_2=1 | -)"] = None
-    answers["(c) P(X_3=1 | +)"] = None
-    answers["(c) P(X_3=1 | -)"] = None
+    answers["(c) P(X_1=1 | +)"] = 0.8
+    answers["(c) P(X_1=1 | -)"] = 0.5
+    answers["(c) P(X_2=1 | +)"] = 0.5
+    answers["(c) P(X_2=1 | -)"] = 0.32
+    answers["(c) P(X_3=1 | +)"] = 0.4
+    answers["(c) P(X_3=1 | -)"] = 0.16
 
     # For each row give the class predicted by the model after training using Naive Bayes
     # String: either '+' or '-'
-    answers["(d) Row 1"] = None
-    answers["(d) Row 2"] = None
-    answers["(d) Row 3"] = None
-    answers["(d) Row 4"] = None
+    answers["(d) Row 1"] = '+'
+    answers["(d) Row 2"] = '-'
+    answers["(d) Row 3"] = '-'
+    answers["(d) Row 4"] = '-'
 
     # float between 0 and 1
-    answers["(d) Training error rate"] = None
+    answers["(d) Training error rate"] = 0.3
 
     return answers
 
