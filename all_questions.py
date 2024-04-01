@@ -114,12 +114,12 @@ def question9():
     answers = {}
 
     # int
-    answers["(a) K"] = None
-    answers["(b) K"] = None
+    answers["(a) K"] = 5
+    answers["(b) K"] = 5
 
     # explain_string
-    answers["(a) explain"] = None
-    answers["(b) explain"] = None
+    answers["(a) explain"] = "This value of K is more robust than K = 1, as it takes into account a larger neighborhood. It can help reduce the impact of outliers and provide more stable classifications, especially for the blue crosses that are more dispersed."
+    answers["(b) explain"] = "It allows for a moderate level of smoothing while still preserving the separation between clusters, leading to better generalization performance."
 
     return answers
 
